@@ -18,9 +18,20 @@
 }
 
 .education-card-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  grid-gap: 1rem 1rem;
+  gap: 1rem 1rem;
+}
+
+.education-card {
   display: flex;
   flex-direction: column;
-  padding-top: 20px;
+  background-color: rgb(255, 255, 255);
+  padding: 1.5rem;
+  border-radius: 10px;
+  border: 1px solid rgba(211, 211, 211, 0.397);
+  justify-content: center;
 }
 
 @media (max-width: 1380px) {
