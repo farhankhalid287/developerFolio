@@ -22,5 +22,5 @@ jobs:
           script: |
             # Commands to execute on the remote server
             cd /home/farhan/www # Example: navigate to your application directory
-            ./deploy.sh # Execute your desired script
+            bash deploy.sh # Execute your desired script
             echo "Script execution completed!"
