@@ -131,7 +131,7 @@ const educationInfo = {
   schools: [
     {
       schoolName: "Foundation University Islamabad",
-      logo: require("./assets/images/fuiLogo.png"),
+      logo: require("./assets/images/fuiLogo.jpg"),
       subHeader: "Bachelor of Science in Computer Science",
       duration: "September 2012 - April 2016",
       desc: "Participated in the research of XXX and published 3 papers.",
