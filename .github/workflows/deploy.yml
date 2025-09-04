@@ -18,6 +18,7 @@ jobs:
           host: ${{ secrets.SERVER_HOST }} # IP address or hostname of your server
           username: ${{ secrets.SERVER_USERNAME }} # SSH username on the server
           key: ${{ secrets.SSH_PRIVATE_KEY }} # The private key stored as a secret
+          port: ${{ secrets.SERVER_PORT }}
           script: |
             # Commands to execute on the remote server
             cd /home/farhan/www # Example: navigate to your application directory
