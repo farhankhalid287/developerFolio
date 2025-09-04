@@ -136,7 +136,7 @@ const educationInfo = {
       duration: "September 2012 - April 2016",
       desc: "Participated in the research of XXX and published 3 papers.",
       descBullets: [
-        " sit amet, consectetur adipiscing elit",
+        "Lorem ipsum dolor sit amet, consectetur adipiscing elit sit amet, consectetur adipiscing elit",
         "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
       ]
     },
