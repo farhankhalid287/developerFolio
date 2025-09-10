@@ -132,12 +132,14 @@ const educationInfo = {
     {
       schoolName: "Foundation University Islamabad",
       logo: require("./assets/images/fuiLogo.png"),
-      subHeader: "Bachelor of Science in Computer Science",
-      duration: "September 2012 - April 2016",
-      desc: "Participated in the research of XXX and published 3 papers.",
+      subHeader: "Bachelor of Computer Software Engineering",
+      duration: "September 2012 - June 2016",
+      desc: "Completed a four-year degree in Software Engineering with a strong foundation in programming, software development methodologies, databases, and system design. Gained hands-on experience through academic projects, research, and collaborative work.",
       descBullets: [
-        " sit amet, consectetur adipiscing elit",
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
+        "Acquired solid understanding of Software Development Life Cycle (SDLC), Agile methodologies",
+        "Gained expertise in database management (MySQL, PostgreSQL) and software architecture.",
+        "Worked on team-based capstone projects, focusing on problem-solving, scalability and collaboration.",
+        "Strong analytical, communication, and teamwork skills, demonstrated through group projects and research collaboration."
       ]
     },
     {
@@ -145,8 +147,14 @@ const educationInfo = {
       logo: require("./assets/images/fazaiaLogo.jpg"),
       subHeader: "Intermediate in Computer Science",
       duration: "April 2010 - March 2012",
-      desc: "Ranked top 10% in the program. Took courses about Software Engineering, Web Security, Operating Systems, ...",
-      descBullets: ["Lorem ipsum dolor sit amet, consectetur adipiscing elit"]
+      desc: "Completed intermediate-level studies in Computer Science with a strong focus on programming fundamentals, object-oriented programming, and database management.",
+      descBullets: [
+        "Gained solid programming knowledge with hands-on practice in advanced OOP concepts.",
+        "Learned and applied database management techniques using MS Access.",
+        "Built problem-solving and logical reasoning skills through programming assignments and projects.",
+        "Developed foundational understanding of Software Engineering concepts and system design.",
+        "Explored web technologies and security basics, strengthening interest in advanced computing."
+      ]
     }
   ]
 };
