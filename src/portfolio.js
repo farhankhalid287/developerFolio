@@ -33,7 +33,7 @@ const greeting = {
 // Social Media Links
 
 const socialMediaLinks = {
-  github: "https://github.com/farhankhadli287",
+  github: "https://github.com/farhankhalid287",
   linkedin: "https://www.linkedin.com/in/farhankhalid287/",
   gmail: "farhan.khalid287@gmail.com",
   //gitlab: "https://gitlab.com/saadpasta",
@@ -51,12 +51,16 @@ const skillsSection = {
   title: "What I do",
   subTitle: "CRAZY FULL STACK DEVELOPER WHO WANTS TO EXPLORE EVERY TECH STACK",
   skills: [
+    emoji("⚡ Build and maintain robust Backend Applications and APIs"),
+    emoji("⚡ Develop scalable Frontend Applications with modern frameworks"),
     emoji(
-      "⚡ Develop highly interactive Front end / User Interfaces for your web and mobile applications"
+      "⚡ Solve complex technical and business problems with efficient solutions"
     ),
-    emoji("⚡ Progressive Web Applications ( PWA ) in normal and SPA Stacks"),
     emoji(
-      "⚡ Integration of third party services such as Firebase/ AWS / Digital Ocean"
+      "⚡ Integrate third-party services and APIs (e.g., Stripe / Paypal / MailChimp )"
+    ),
+    emoji(
+      "⚡ Design and manage CRM systems for streamlined business operations"
     )
   ],
 
@@ -64,6 +68,26 @@ const skillsSection = {
 https://fontawesome.com/icons?d=gallery */
 
   softwareSkills: [
+    {
+      skillName: "nodejs",
+      fontAwesomeClassname: "fab fa-node"
+    },
+    {
+      skillName: "reactjs",
+      fontAwesomeClassname: "fab fa-react"
+    },
+    {
+      skillName: "vuejs",
+      fontAwesomeClassname: "fab fa-vuejs"
+    },
+    {
+      skillName: "JavaScript",
+      fontAwesomeClassname: "fab fa-js"
+    },
+    {
+      skillName: "PHP",
+      fontAwesomeClassname: "fab fa-php"
+    },
     {
       skillName: "html-5",
       fontAwesomeClassname: "fab fa-html5"
@@ -77,24 +101,8 @@ https://fontawesome.com/icons?d=gallery */
       fontAwesomeClassname: "fab fa-sass"
     },
     {
-      skillName: "JavaScript",
-      fontAwesomeClassname: "fab fa-js"
-    },
-    {
-      skillName: "reactjs",
-      fontAwesomeClassname: "fab fa-react"
-    },
-    {
-      skillName: "vuejs",
-      fontAwesomeClassname: "fab fa-vuejs"
-    },
-    {
-      skillName: "nodejs",
-      fontAwesomeClassname: "fab fa-node"
-    },
-    {
-      skillName: "swift",
-      fontAwesomeClassname: "fab fa-swift"
+      skillName: "bootstrap",
+      fontAwesomeClassname: "fab fa-bootstrap"
     },
     {
       skillName: "npm",
@@ -105,12 +113,12 @@ https://fontawesome.com/icons?d=gallery */
       fontAwesomeClassname: "fas fa-database"
     },
     {
-      skillName: "aws",
-      fontAwesomeClassname: "fab fa-aws"
+      skillName: "Jira",
+      fontAwesomeClassname: "fab fa-jira"
     },
     {
-      skillName: "firebase",
-      fontAwesomeClassname: "fas fa-fire"
+      skillName: "Nginx",
+      fontAwesomeClassname: "fas fa-server"
     },
     {
       skillName: "python",
@@ -119,6 +127,18 @@ https://fontawesome.com/icons?d=gallery */
     {
       skillName: "docker",
       fontAwesomeClassname: "fab fa-docker"
+    },
+    {
+      skillName: "git",
+      fontAwesomeClassname: "fab fa-git"
+    },
+    {
+      skillName: "Amazon S3",
+      fontAwesomeClassname: "fab fa-aws"
+    },
+    {
+      skillName: "linux",
+      fontAwesomeClassname: "fab fa-linux"
     }
   ],
   display: true // Set false to hide this section, defaults to true
@@ -132,12 +152,14 @@ const educationInfo = {
     {
       schoolName: "Foundation University Islamabad",
       logo: require("./assets/images/fuiLogo.png"),
-      subHeader: "Bachelor of Science in Computer Science",
-      duration: "September 2012 - April 2016",
-      desc: "Participated in the research of XXX and published 3 papers.",
+      subHeader: "Bachelor of Computer Software Engineering",
+      duration: "September 2012 - June 2016",
+      desc: "Completed a four-year degree in Software Engineering with a strong foundation in programming, software development methodologies, databases, and system design. Gained hands-on experience through academic projects, research, and collaborative work.",
       descBullets: [
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit sit amet, consectetur adipiscing elit",
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
+        "Acquired solid understanding of Software Development Life Cycle (SDLC), Agile methodologies",
+        "Gained expertise in database management (MySQL, PostgreSQL) and software architecture.",
+        "Worked on team-based capstone projects, focusing on problem-solving, scalability and collaboration.",
+        "Strong analytical, communication, and teamwork skills, demonstrated through group projects and research collaboration."
       ]
     },
     {
@@ -145,8 +167,14 @@ const educationInfo = {
       logo: require("./assets/images/fazaiaLogo.jpg"),
       subHeader: "Intermediate in Computer Science",
       duration: "April 2010 - March 2012",
-      desc: "Ranked top 10% in the program. Took courses about Software Engineering, Web Security, Operating Systems, ...",
-      descBullets: ["Lorem ipsum dolor sit amet, consectetur adipiscing elit"]
+      desc: "Completed intermediate-level studies in Computer Science with a strong focus on programming fundamentals, object-oriented programming, and database management.",
+      descBullets: [
+        "Gained solid programming knowledge with hands-on practice in advanced OOP concepts.",
+        "Learned and applied database management techniques using MS Access.",
+        "Built problem-solving and logical reasoning skills through programming assignments and projects.",
+        "Developed foundational understanding of Software Engineering concepts and system design.",
+        "Explored web technologies and security basics, strengthening interest in advanced computing."
+      ]
     }
   ]
 };
@@ -158,7 +186,7 @@ const techStack = {
   experience: [
     {
       Stack: "Backend", //Insert stack or technology you have experience in
-      progressPercentage: "90%" //Insert relative proficiency in percentage
+      progressPercentage: "95%" //Insert relative proficiency in percentage
     },
     {
       Stack: "Frontend",
@@ -166,7 +194,7 @@ const techStack = {
     },
     {
       Stack: "Dev Ops",
-      progressPercentage: "50%"
+      progressPercentage: "60%"
     }
   ],
   displayCodersrank: false // Set true to display codersrank badges section need to changes your username in src/containers/skillProgress/skillProgress.js:17:62, defaults to false
@@ -210,7 +238,7 @@ To know how to get github key look at readme.md */
 
 const openSource = {
   showGithubProfile: "false", // Set true or false to show Contact profile using Github, defaults to true
-  display: true // Set false to hide this section, defaults to true
+  display: false // Set false to hide this section, defaults to true
 };
 
 // Some big projects you have worked on
@@ -304,7 +332,7 @@ const achievementSection = {
       ]
     }
   ],
-  display: true // Set false to hide this section, defaults to true
+  display: false // Set false to hide this section, defaults to true
 };
 
 // Blogs Section
