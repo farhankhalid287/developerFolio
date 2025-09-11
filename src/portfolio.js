@@ -210,25 +210,38 @@ const workExperiences = {
       company: "Transworld Enterprise Services",
       companylogo: require("./assets/images/TesLogo.png"),
       date: "May 2022 – Present",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      desc: "Deputy Manager IT Development with expertise in enterprise solutions, CRM platforms, and system integrations. Skilled in full-stack development, microservices, and database management to deliver scalable and high-performance applications.",
       descBullets: [
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
+        "Developed ATOM CRM and an integration platform to improve business processes.",
+        "Modernized legacy systems and implemented microservices (Docker, Kubernetes).",
+        "Built scalable backend & frontend solutions with Node.js, SQL/NoSQL, and ORM.",
+        "Partnered with cross-functional teams to deliver secure and reliable applications."
       ]
     },
     {
       role: "Senior Full Stack Developer",
       company: "Goldbar Tech Pvt Limited",
-      companylogo: require("./assets/images/quoraLogo.png"),
+      companylogo: require("./assets/images/goldbarLogo.jpg"),
       date: "Feb 2017 – April 2022",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+      desc: "Senior Full Stack Developer specializing in scalable web apps and microservices. Experienced in PHP, AngularJS, Yii2, SQL/NoSQL, and Docker for building reliable enterprise solutions.",
+      descBullets: [
+        "Designed and developed microservices architecture integrated with enterprise solutions.",
+        "Built and maintained scalable web applications, APIs, and databases (PHP, AngularJS, Yii2, MongoDB, SQL).",
+        "Led software deployments, feature updates, and debugging to ensure system reliability.",
+        "Collaborated on requirements gathering and prototyping to deliver optimized business solutions."
+      ]
     },
     {
-      role: "Software Engineer Intern",
-      company: "Fauji Foundation ",
-      companylogo: require("./assets/images/ff_logo.png"),
-      date: "Jan 2015 – Sep 2015",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+      role: "Junior Software Engineer",
+      company: "CreatorSol Pvt Ltd",
+      companylogo: require("./assets/images/csLogo.png"),
+      date: "Mar 2016 – Jan 2017",
+      desc: "Junior Software Engineer focused on developing WordPress websites using HTML, CSS, PHP, JavaScript, and Java. Collaborated with clients to gather requirements and ensure smooth project delivery.",
+      descBullets: [
+        "Developed and customized WordPress websites using HTML, CSS, PHP, JavaScript, and Java.",
+        "Collaborated with clients to gather business and functional requirements.",
+        "Acted as a liaison between development team and clients, ensuring clear communication and timely updates."
+      ]
     }
   ]
 };
@@ -245,28 +258,43 @@ const openSource = {
 
 const bigProjects = {
   title: "Big Projects",
-  subtitle: "SOME STARTUPS AND COMPANIES THAT I HELPED TO CREATE THEIR TECH",
+  subtitle:
+    "KEY PROJECTS DELIVERED ACROSS ENTERPRISE APPLICATIONS, INTEGRATIONS, AND SCALABLE SOFTWARE SOLUTIONS.",
   projects: [
     {
-      image: require("./assets/images/saayaHealthLogo.webp"),
-      projectName: "Saayahealth",
-      projectDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+      image: require("./assets/images/TWA-Logo.png"),
+      projectName: "Transworld ATOM CRM",
+      projectDesc:
+        "ATOM is an enterprise-grade CRM system designed to manage customer leads, change management processes, and complete customer profiles. It includes integrated modules for trouble ticketing, finance, and employee management, providing a unified platform to streamline operations and improve customer experience.",
       footerLink: [
         {
           name: "Visit Website",
-          url: "http://saayahealth.com/"
+          url: "http://www.tw1.com/"
         }
         //  you can add extra buttons here.
       ]
     },
     {
-      image: require("./assets/images/nextuLogo.webp"),
-      projectName: "Nextu",
-      projectDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+      image: require("./assets/images/InterFunnelLogo.png"),
+      projectName: "InterFunnel",
+      projectDesc:
+        "InterFunnels is the ultimate sales funnel software and sales funnel builder with affiliate program. An alternative to ClickFunnels, with a free landing page builder and tools for creating automated sales funnels, lead generation, and affiliate marketing solutions.",
       footerLink: [
         {
           name: "Visit Website",
-          url: "http://nextu.se/"
+          url: "http://www.interfunnels.com"
+        }
+      ]
+    },
+    {
+      image: require("./assets/images/bulkresponseLogo.png"),
+      projectName: "Bulkresponse",
+      projectDesc:
+        "BulkResponse is the only Mass Email Marketing services which allows its users to import unlimited contacts. Thousands of email marketers use bulkresponse as their Email Marketing Solutions.",
+      footerLink: [
+        {
+          name: "Visit Website",
+          url: "http://www.bulkresponse.com"
         }
       ]
     }
